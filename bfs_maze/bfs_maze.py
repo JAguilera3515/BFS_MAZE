@@ -77,7 +77,7 @@ class Agent():
 
     def bfs(self, maze, goal):
         """Return an ordered list of moves to get the maze to match the goal."""
-        # YOU FILL THIS IN
+        
         prev = {}
         queue = [maze]
         visited = [maze]
