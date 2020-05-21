@@ -34,7 +34,7 @@ class Maze():
 
     def moves(self):
         """Return a list of possible moves given the current agent location."""
-        # YOU FILL THIS IN
+        
         nexttovisit = []
         r = self.location[0]#|
         c = self.location[1]#--
